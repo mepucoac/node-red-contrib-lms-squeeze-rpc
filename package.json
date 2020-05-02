@@ -23,6 +23,12 @@
             "lms-squeeze-rpc-playerstatus-node": "dist/playerstatus-node.js"
         }
     },
+    "keywords": [
+        "node-red",
+        "lms",
+        "squeezebox",
+        "logitech media server"
+    ],
     "devDependencies": {
         "@types/node": "^13.13.4",
         "typescript": "^3.8.3"
