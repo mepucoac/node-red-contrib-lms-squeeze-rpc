@@ -1,0 +1,25 @@
+{
+  "name": "node-red-contrib-lms-squeeze-rpc",
+  "version": "0.0.1",
+  "description": "Some Node-RED Nodes wrapping lms-squeeze-rpc",
+  "scripts": {
+    "build": "tsc && cp src/*.html dist/ "
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lms-squeeze-rpc": "0.0.1"
+  },
+  "node-red": {
+    "nodes": {
+      "lms-squeeze-rpc-serverconfig": "dist/serverconfig.js",
+      "lms-squeeze-rpc-playerconfig": "dist/playerconfig.js",
+      "lms-squeeze-rpc-serverstatus-node": "dist/serverstatus-node.js",
+      "lms-squeeze-rpc-playerstatus-node": "dist/playerstatus-node.js"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "typescript": "^3.8.3"
+  }
+}
