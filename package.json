@@ -1,6 +1,6 @@
 {
     "name": "node-red-contrib-lms-squeeze-rpc",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Some Node-RED Nodes wrapping lms-squeeze-rpc",
     "scripts": {
         "build": "tsc && cp src/*.html dist/ "
@@ -20,7 +20,8 @@
             "lms-squeeze-rpc-serverconfig": "dist/serverconfig.js",
             "lms-squeeze-rpc-playerconfig": "dist/playerconfig.js",
             "lms-squeeze-rpc-serverstatus-node": "dist/serverstatus-node.js",
-            "lms-squeeze-rpc-playerstatus-node": "dist/playerstatus-node.js"
+            "lms-squeeze-rpc-playerstatus-node": "dist/playerstatus-node.js",
+            "lms-squeeze-rpc-playersetvolume-node": "dist/playersetvolume-node.js"
         }
     },
     "keywords": [
